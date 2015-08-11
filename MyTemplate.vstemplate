@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Grafe</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Grafe</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Grafe.csproj" File="Grafe.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DegDeX.cs">DegDeX.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DegMoinDeX.cs">DegMoinDeX.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DegPlusDeX.cs">DegPlusDeX.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DensiteGra.cs">DensiteGra.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DonnerLesPlusCourtCheminDeXiVersToutLesYj.cs">DonnerLesPlusCourtCheminDeXiVersToutLesYj.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DonnerNombreDeCheminEntreXetY.cs">DonnerNombreDeCheminEntreXetY.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DonnerPlusCourtChemin.cs">DonnerPlusCourtChemin.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GenererGra.cs">GenererGra.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GenGraOrian.cs">GenGraOrian.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrdonancerGra.cs">OrdonancerGra.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrdreGra.cs">OrdreGra.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SuccesseursSom.cs">SuccesseursSom.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TailleGra.cs">TailleGra.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifArbre.cs">VerifArbre.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifComplet.cs">VerifComplet.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifFortementConnexe.cs">VerifFortementConnexe.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifSimple.cs">VerifSimple.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifXisoler.cs">VerifXisoler.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifXPuits.cs">VerifXPuits.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VerifXSource.cs">VerifXSource.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
